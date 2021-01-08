@@ -3,13 +3,27 @@ BattleScribe data for the game
 
 BS data file....in progress. Slowly but steady
 
-Actual status: Made all units fit the updated 9th edition.
+Done:
+Added Rites of War
+Added Relics
+Bugfixes
 
-To do's:
+Known Issues:
 
-    implement all the Rites of War (actually only up to Orbital Assault implemented, working on Orphans of Betryal and rest)
-    implement the Legion specific units and benefits
-    add the other armies (Mechanicum,...)
+General:
+When choosing >= 2 Detachments in the army you have to manually delete some Army Setup Entries
+
+Rites of War:
+No validation in roster if FORTIFICATIONS/SUPER-HEAVY (AUXILLARY) are taken with certain Rites of War
+Orphans of Betrayal: Not validating if >HEAVY than TROOPS
+Outcast Sons: Not validating if >ELITE than TROOPS
+PotL, Fury of the Ancients, Skyhunter Phallanx: Able to choose another Legion with 2+ detachments (may only have one)
+Sacrificial Offering: Militia as "Faction-Bedingung" @ Patrol Detachment not yet implemented	
+Skyhunter Phallanx: All VEHICLES must have FLY; unit without the BIKER and FLY keywords must be transported in a VEHICLE not yet implemented
+
+Coming next:
+Adding the BATTLE-AUTOMATA battlefield roles for Cortex node/Brethren of Iron/...
+Adding Legion specific units
 
 Disclaimer: I'm doing this in my already minimal spare time. Might still take some time to finish. Any errors/bugs to: nefertem(at)arcor(dot)de Please add "HH_FanMade" as the email's subject, as other emails will be ignored. I'll take care of tham asap.
 
